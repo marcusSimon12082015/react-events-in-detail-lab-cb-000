@@ -9,6 +9,6 @@ export default class CoordinatesButton extends React.Component
 
   render()
   {
-    return(<button onClick={this.clickXY}></button>);
+    return(<button onClick={this.clickXY(this.props.onReceiveCoordinates)}></button>);
   }
 }
